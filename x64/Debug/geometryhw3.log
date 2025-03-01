@@ -1,0 +1,291 @@
+﻿  main.cpp
+C:\Users\helen\source\repos\geometryhw3\geometryhw3\plot.h(526,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\helen\source\repos\geometryhw3\geometryhw3\plot.h(529,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\helen\source\repos\geometryhw3\geometryhw3\plot.h(534,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\helen\source\repos\geometryhw3\geometryhw3\plot.h(537,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\helen\source\repos\geometryhw3\geometryhw3\plot.h(591,19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\helen\source\repos\geometryhw3\geometryhw3\plot.h(597,45): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\helen\source\repos\geometryhw3\geometryhw3\plot.h(598,30): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\helen\source\repos\geometryhw3\geometryhw3\plot.h(1293,19): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(809,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(809,23):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\helen\source\repos\geometryhw3\geometryhw3\main.cpp(63,62):
+  	see reference to class template instantiation 'RangeTree::RangeTree<int,int>' being compiled
+  	C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(1208,34):
+  	while compiling class template member function 'std::vector<RangeTree::Point<int,int>,std::allocator<RangeTree::Point<int,int>>> RangeTree::RangeTree<int,int>::pointsInRange(const std::vector<int,std::allocator<int>> &,const std::vector<int,std::allocator<int>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<bool,std::allocator<bool>> &) const'
+  		C:\Users\helen\source\repos\geometryhw3\geometryhw3\main.cpp(68,51):
+  		see the first reference to 'RangeTree::RangeTree<int,int>::pointsInRange' in 'main'
+  	C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(1222,20):
+  	see reference to class template instantiation 'RangeTree::RangeTreeNode<T,S>' being compiled
+          with
+          [
+              T=int,
+              S=int
+          ]
+  	C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(789,34):
+  	while compiling class template member function 'std::vector<RangeTree::Point<int,int>,std::allocator<RangeTree::Point<int,int>>> RangeTree::RangeTreeNode<T,S>::pointsInRange(const std::vector<int,std::allocator<int>> &,const std::vector<int,std::allocator<int>> &) const'
+          with
+          [
+              T=int,
+              S=int
+          ]
+  		C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(1222,13):
+  		see the first reference to 'RangeTree::RangeTreeNode<T,S>::pointsInRange' in 'RangeTree::RangeTree<int,int>::pointsInRange'
+          with
+          [
+              T=int,
+              S=int
+          ]
+  		C:\Users\helen\source\repos\geometryhw3\geometryhw3\main.cpp(68,51):
+  		see the first reference to 'RangeTree::RangeTree<int,int>::pointsInRange' in 'main'
+  
+C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(1109,53): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(1109,53): warning C4244:         with
+C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(1109,53): warning C4244:         [
+C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(1109,53): warning C4244:             _Ty=int
+C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(1109,53): warning C4244:         ]
+  (compiling source file 'main.cpp')
+  C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(1109,53):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(1099,24):
+  	while compiling class template member function 'std::vector<int,std::allocator<int>> RangeTree::RangeTree<int,int>::getModifiedUpper(const std::vector<int,std::allocator<int>> &,const std::vector<bool,std::allocator<bool>> &) const'
+  		C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(1222,13):
+  		see the first reference to 'RangeTree::RangeTree<int,int>::getModifiedUpper' in 'RangeTree::RangeTree<int,int>::pointsInRange'
+  		C:\Users\helen\source\repos\geometryhw3\geometryhw3\main.cpp(68,51):
+  		see the first reference to 'RangeTree::RangeTree<int,int>::pointsInRange' in 'main'
+  
+C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(1092,53): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(1092,53): warning C4244:         with
+C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(1092,53): warning C4244:         [
+C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(1092,53): warning C4244:             _Ty=int
+C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(1092,53): warning C4244:         ]
+  (compiling source file 'main.cpp')
+  C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(1092,53):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(1082,24):
+  	while compiling class template member function 'std::vector<int,std::allocator<int>> RangeTree::RangeTree<int,int>::getModifiedLower(const std::vector<int,std::allocator<int>> &,const std::vector<bool,std::allocator<bool>> &) const'
+  		C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(1222,13):
+  		see the first reference to 'RangeTree::RangeTree<int,int>::getModifiedLower' in 'RangeTree::RangeTree<int,int>::pointsInRange'
+  		C:\Users\helen\source\repos\geometryhw3\geometryhw3\main.cpp(68,51):
+  		see the first reference to 'RangeTree::RangeTree<int,int>::pointsInRange' in 'main'
+  
+C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(404,49): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(404,49):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(1126,9):
+  	while compiling class template member function 'RangeTree::RangeTree<int,int>::RangeTree(const std::vector<RangeTree::Point<int,int>,std::allocator<RangeTree::Point<int,int>>> &)'
+  		C:\Users\helen\source\repos\geometryhw3\geometryhw3\main.cpp(63,45):
+  		see the first reference to 'RangeTree::RangeTree<int,int>::RangeTree' in 'main'
+  	C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(1128,36):
+  	see reference to class template instantiation 'RangeTree::SortedPointMatrix<T,S>' being compiled
+          with
+          [
+              T=int,
+              S=int
+          ]
+  	C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(403,13):
+  	while compiling class template member function 'int RangeTree::SortedPointMatrix<T,S>::numUniquePoints(void)'
+          with
+          [
+              T=int,
+              S=int
+          ]
+  		C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(525,13):
+  		see the first reference to 'RangeTree::SortedPointMatrix<T,S>::numUniquePoints' in 'RangeTree::RangeTreeNode<T,S>::RangeTreeNode'
+          with
+          [
+              T=int,
+              S=int
+          ]
+  		C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(1129,18):
+  		see the first reference to 'RangeTree::RangeTreeNode<T,S>::RangeTreeNode' in 'RangeTree::RangeTree<int,int>::RangeTree'
+          with
+          [
+              T=int,
+              S=int
+          ]
+  		C:\Users\helen\source\repos\geometryhw3\geometryhw3\main.cpp(63,45):
+  		see the first reference to 'RangeTree::RangeTree<int,int>::RangeTree' in 'main'
+  
+C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(683,31): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'main.cpp')
+  C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(683,31):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(680,14):
+  	while compiling class template member function 'bool RangeTree::RangeTreeNode<T,S>::pointInRange(const RangeTree::Point<T,S> &,const std::vector<int,std::allocator<int>> &,const std::vector<int,std::allocator<int>> &) const'
+          with
+          [
+              T=int,
+              S=int
+          ]
+  		C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(793,17):
+  		see the first reference to 'RangeTree::RangeTreeNode<T,S>::pointInRange' in 'RangeTree::RangeTreeNode<T,S>::pointsInRange'
+          with
+          [
+              T=int,
+              S=int
+          ]
+  		C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(1222,13):
+  		see the first reference to 'RangeTree::RangeTreeNode<T,S>::pointsInRange' in 'RangeTree::RangeTree<int,int>::pointsInRange'
+          with
+          [
+              T=int,
+              S=int
+          ]
+  		C:\Users\helen\source\repos\geometryhw3\geometryhw3\main.cpp(68,51):
+  		see the first reference to 'RangeTree::RangeTree<int,int>::pointsInRange' in 'main'
+  
+C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(581,19): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(581,19):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(578,26):
+  	while compiling class template member function 'std::vector<int,std::allocator<int>> RangeTree::RangeTreeNode<T,S>::createLeqPointers(const std::vector<int,std::allocator<int>> &,const std::vector<int,std::allocator<int>> &)'
+          with
+          [
+              T=int,
+              S=int
+          ]
+  		C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(555,38):
+  		see the first reference to 'RangeTree::RangeTreeNode<T,S>::createLeqPointers' in 'RangeTree::RangeTreeNode<T,S>::RangeTreeNode'
+          with
+          [
+              T=int,
+              S=int
+          ]
+  		C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(1129,18):
+  		see the first reference to 'RangeTree::RangeTreeNode<T,S>::RangeTreeNode' in 'RangeTree::RangeTree<int,int>::RangeTree'
+          with
+          [
+              T=int,
+              S=int
+          ]
+  		C:\Users\helen\source\repos\geometryhw3\geometryhw3\main.cpp(63,45):
+  		see the first reference to 'RangeTree::RangeTree<int,int>::RangeTree' in 'main'
+  
+C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(582,24): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(253,35): warning C4018: '>=': signed/unsigned mismatch
+  (compiling source file 'main.cpp')
+  C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(253,35):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(499,28):
+  	see reference to class template instantiation 'RangeTree::PointOrdering<T,S>' being compiled
+          with
+          [
+              T=int,
+              S=int
+          ]
+  	C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(249,14):
+  	while compiling class template member function 'bool RangeTree::PointOrdering<T,S>::less(const RangeTree::Point<T,S> &,const RangeTree::Point<T,S> &) const'
+          with
+          [
+              T=int,
+              S=int
+          ]
+  		C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(355,31):
+  		see the first reference to 'RangeTree::PointOrdering<T,S>::less' in 'RangeTree::SortedPointMatrix<T,S>::{ctor}::<lambda_1>::operator ()'
+          with
+          [
+              T=int,
+              S=int
+          ]
+  
+C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(256,47): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'main.cpp')
+  
+C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(157,35): warning C4018: '>=': signed/unsigned mismatch
+  (compiling source file 'main.cpp')
+  C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(157,35):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\helen\source\repos\geometryhw3\geometryhw3\main.cpp(40,30):
+  	see reference to class template instantiation 'RangeTree::Point<int,int>' being compiled
+  	C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(156,11):
+  	while compiling class template member function 'T RangeTree::Point<T,int>::operator [](int) const'
+          with
+          [
+              T=int
+          ]
+  		C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(800,13):
+  		see the first reference to 'RangeTree::Point<int,int>::operator []' in 'RangeTree::RangeTreeNode<T,S>::pointsInRange'
+          with
+          [
+              T=int,
+              S=int
+          ]
+  		C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(1222,13):
+  		see the first reference to 'RangeTree::RangeTreeNode<T,S>::pointsInRange' in 'RangeTree::RangeTree<int,int>::pointsInRange'
+          with
+          [
+              T=int,
+              S=int
+          ]
+  		C:\Users\helen\source\repos\geometryhw3\geometryhw3\main.cpp(68,51):
+  		see the first reference to 'RangeTree::RangeTree<int,int>::pointsInRange' in 'main'
+  
+C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(114,28): warning C4267: 'return': conversion from 'size_t' to 'unsigned long', possible loss of data
+  (compiling source file 'main.cpp')
+  C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(114,28):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(113,23):
+  	while compiling class template member function 'unsigned long RangeTree::Point<int,int>::dim(void) const'
+  		C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(343,21):
+  		see the first reference to 'RangeTree::Point<int,int>::dim' in 'RangeTree::SortedPointMatrix<T,S>::SortedPointMatrix'
+          with
+          [
+              T=int,
+              S=int
+          ]
+  		C:\Users\helen\source\repos\geometryhw3\geometryhw3\RangeTree.h(1128,39):
+  		see the first reference to 'RangeTree::SortedPointMatrix<T,S>::SortedPointMatrix' in 'RangeTree::RangeTree<int,int>::RangeTree'
+          with
+          [
+              T=int,
+              S=int
+          ]
+  		C:\Users\helen\source\repos\geometryhw3\geometryhw3\main.cpp(63,45):
+  		see the first reference to 'RangeTree::RangeTree<int,int>::RangeTree' in 'main'
+  
+C:\Users\helen\source\repos\geometryhw3\geometryhw3\plot.h(1028,17): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  C:\Users\helen\source\repos\geometryhw3\geometryhw3\plot.h(1028,17):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\helen\source\repos\geometryhw3\geometryhw3\plot.h(1265,8):
+  	see reference to function template instantiation 'void signalsmith::plot::Line2D::writeAnimationAttrs<signalsmith::plot::Line2D::writeLabel::<lambda_1>>(signalsmith::plot::SvgWriter &,WriteValue &&)' being compiled
+          with
+          [
+              WriteValue=signalsmith::plot::Line2D::writeLabel::<lambda_1>
+          ]
+  
+C:\Users\helen\source\repos\geometryhw3\geometryhw3\kd_tree.cpp(11,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  (compiling source file 'main.cpp')
+  C:\Users\helen\source\repos\geometryhw3\geometryhw3\kd_tree.cpp(11,14):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\helen\source\repos\geometryhw3\geometryhw3\main.cpp(48,29):
+  	see reference to class template instantiation 'KDTree<int>' being compiled
+  	C:\Users\helen\source\repos\geometryhw3\geometryhw3\kd_tree.cpp(9,26):
+  	while compiling class template member function 'KDTree<int>::KDTree(int)'
+  		C:\Users\helen\source\repos\geometryhw3\geometryhw3\main.cpp(48,23):
+  		see the first reference to 'KDTree<int>::KDTree' in 'main'
+  
+  geometryhw3.vcxproj -> C:\Users\helen\source\repos\geometryhw3\x64\Debug\geometryhw3.exe
