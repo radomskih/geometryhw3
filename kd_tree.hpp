@@ -1,3 +1,5 @@
+//Source: https://github.com/z4m0/kd-tree/tree/master
+
 #include <vector>
 
 template <class T>
